@@ -10,8 +10,8 @@ return newArr
 end
 
 ## Reverse with .collect 
-def reverse_each_word (str2)
-  str2_split= str2.split.collect do |ele|
+def reverse_each_word (str)
+  result= str.split().collect do |ele|
     ele.reverse
   end
   str2.join(" ")
